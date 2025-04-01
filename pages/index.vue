@@ -1,9 +1,5 @@
 <script setup>
-const {products} = await $fetch('https://dummyjson.com/products?delay=2000');
-//const {data} = await useAsyncData(
-//	'products',
-//	() => $fetch('https://dummyjson.com/products?delay=2000')
-//);
+const {products} = await $fetch('https://dummyjson.com/products?delay=1000');
 </script>
 
 <template>

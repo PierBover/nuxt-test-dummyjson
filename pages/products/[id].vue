@@ -1,7 +1,7 @@
 <script setup>
 const route = useRoute();
 const {id} = route.params;
-const products = await $fetch(`https://dummyjson.com/products/${id}?delay=2000`);
+const products = await $fetch(`https://dummyjson.com/products/${id}?delay=1000`);
 </script>
 
 <template>
